@@ -12,7 +12,7 @@
 ![Bilibili](https://img.shields.io/badge/Bilibili-13%20videos-00A1D6?style=flat-square&logo=bilibili&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Beginner-blue?style=flat-square)
 
-[📺 B站视频合集](https://www.bilibili.com/video/BV1aK4y1F7g9) ｜ [📓 Jupyter课件](#课程目录) ｜ [📄 PDF版](#课程目录) ｜ [English](README_EN.md)
+[📺 B站视频合集](https://www.bilibili.com/video/BV1aK4y1F7g9) ｜ [🌐 马哥的python小屋](https://mgcoding.com) ｜ [📓 Jupyter课件](#课程目录) ｜ [📄 PDF版](#课程目录) ｜ [English](README_EN.md)
 
 </div>
 
@@ -88,6 +88,16 @@
 | 13 | 第7讲-Python面向对象 | 8:30 | [观看](https://www.bilibili.com/video/BV1aK4y1F7g9?p=13) |
 
 </details>
+
+## 配套学习网站
+
+这套视频课用 7 讲快速建立框架；如果你更喜欢按章节阅读，或者想继续补上异常处理、文件读写、模块与包这些内容，我把入门教程整理成了更完整的图文版，放在 **[马哥的python小屋](https://mgcoding.com)**：
+
+- **7 个章节、25 篇教程**：从 Hello World、变量、循环，讲到函数、文件、模块和面向对象
+- **每节都有能直接运行的小例子**，可以和本仓库的 Notebook 配合使用
+- 网站内容为中文，适合零基础按顺序学
+
+> 建议用法：先看视频建立整体印象，再去网站按章节读一遍，最后回到 Notebook 自己改代码。
 
 ## 5 天学习路线
 
@@ -270,6 +280,7 @@ B 站合集里第 3 讲拆成了 6 个视频（数值、字符串、列表、元
 
 ## 联系作者
 
+- **学习网站**：[马哥的python小屋](https://mgcoding.com)
 - **B 站**：[马哥python说](https://space.bilibili.com/438486155)
 - **公众号**：[老男孩的平凡之路](https://github.com/mashukui/mashukui/blob/main/wechat2.png)
 - **问题反馈**：[GitHub Issues](../../issues)

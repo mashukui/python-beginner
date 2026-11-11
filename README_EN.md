@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/License-MIT-2ea44f?style=flat-square)
 ![Bilibili](https://img.shields.io/badge/Bilibili-13%20videos-00A1D6?style=flat-square&logo=bilibili&logoColor=white)
 
-[中文 README](README.md) ｜ [📺 Videos](https://www.bilibili.com/video/BV1aK4y1F7g9)
+[中文 README](README.md) ｜ [📺 Videos](https://www.bilibili.com/video/BV1aK4y1F7g9) ｜ [🌐 Website](https://mgcoding.com)
 
 </div>
 
@@ -45,6 +45,12 @@ The course focuses on the syntax you actually need as a beginner — no third-pa
 | 7 | Object-oriented programming | [watch](https://www.bilibili.com/video/BV1aK4y1F7g9?p=13) | 8:30 | [ipynb](notebooks/第7讲-Python面向对象.ipynb) · [PDF](pdf/第7讲-Python面向对象.pdf) |
 
 Lecture 3 is split into six videos (numbers, strings, lists, tuples, dicts, sets); lecture 5 is split into two (for / while). The whole course is 13 videos in total.
+
+## Companion website
+
+The 7 lectures are a fast overview. For a slower, chapter-by-chapter path — including exceptions, file I/O and modules — I maintain a Chinese-language tutorial site: [马哥的python小屋](https://mgcoding.com) (7 chapters, 25 lessons, from Hello World to OOP).
+
+The site is in Chinese; the notebooks and code in this repo remain language-agnostic.
 
 ## Run the notebooks
 
