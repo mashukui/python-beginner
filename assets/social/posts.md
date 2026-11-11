@@ -20,10 +20,10 @@ https://github.com/mashukui/python-beginner?utm_source=youtube&utm_medium=social
 
 ## 1. X（Twitter）
 
-### 主推文（英文，加权 261/280）
+### 主推文（英文，加权 266/280）
 
 ```text
-I open-sourced my beginner Python course materials.
+I open-sourced my paid beginner Python course materials.
 
 7 lectures · ~78 min: install → types → loops → functions → OOP
 Runnable notebooks + PDFs. MIT.
