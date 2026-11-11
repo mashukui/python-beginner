@@ -1,0 +1,88 @@
+name: 🐛 内容错误 / 代码问题
+description: 课件里的错别字、代码跑不通、输出不一致、图片或链接失效
+title: "[问题] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量写清楚“哪一讲、哪个代码格、发生了什么”，方便快速定位。
+
+        如果是“课程怎么学”“环境怎么装”这类问题，请先看 [README 的常见问题](https://github.com/mashukui/python-beginner/blob/main/README.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)。
+
+  - type: dropdown
+    id: lecture
+    attributes:
+      label: 出现在哪一讲？
+      options:
+        - 第 1 讲 · Python 介绍
+        - 第 2 讲 · 环境搭建（Python / PyCharm）
+        - 第 3 讲 · 数据类型
+        - 第 4 讲 · 条件判断
+        - 第 5 讲 · 循环语句
+        - 第 6 讲 · 函数
+        - 第 7 讲 · 面向对象
+        - 其他 / 不确定
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: 问题类型
+      options:
+        - 错别字 / 语句不通
+        - 代码报错 / 跑不通
+        - 代码输出与课件不一致
+        - 图片缺失 / 显示异常
+        - 链接失效
+        - PDF 排版 / 内容问题
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: 问题描述
+      description: 具体是哪个代码格或哪句话？可以直接拖拽截图进来。
+      placeholder: |
+        例如：第 3 讲 6.1 的集合示例，运行后提示 ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: code
+    attributes:
+      label: 相关代码或报错信息
+      description: 把出问题的代码、完整报错粘贴到这里（可选）。
+      render: python
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 操作系统、Python 版本、Jupyter / PyCharm 版本（可选）。
+      placeholder: "macOS 15 / Python 3.12 / JupyterLab 4.3"
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+      description: 你期望看到什么？实际看到的是什么？（可选）
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已经搜索过现有 Issue，没有发现重复
+          required: true
+        - label: 我愿意提交 PR 一起修复
+          required: false

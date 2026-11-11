@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📺 课程视频（B 站）
+    url: https://www.bilibili.com/video/BV1aK4y1F7g9
+    about: 安装、操作步骤在视频里有完整演示，遇到问题可以先对照视频。
+  - name: 📖 README 常见问题
+    url: https://github.com/mashukui/python-beginner/blob/main/README.md#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98
+    about: Python 版本、Jupyter 与 PyCharm 的区别、图片不显示等常见问题。

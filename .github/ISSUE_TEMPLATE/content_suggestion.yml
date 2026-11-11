@@ -1,0 +1,71 @@
+name: 💡 内容建议 / 改进
+description: 建议补充例子、优化讲解、调整结构或增加练习
+title: "[建议] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提出改进建议。哪怕只是一句“这里没看懂”，也很有价值。
+
+        请尽量说明“你希望改成什么样”，如果能附上一个小例子就更好了。
+
+  - type: dropdown
+    id: lecture
+    attributes:
+      label: 涉及哪一讲？
+      options:
+        - 第 1 讲 · Python 介绍
+        - 第 2 讲 · 环境搭建（Python / PyCharm）
+        - 第 3 讲 · 数据类型
+        - 第 4 讲 · 条件判断
+        - 第 5 讲 · 循环语句
+        - 第 6 讲 · 函数
+        - 第 7 讲 · 面向对象
+        - 全课程 / 仓库整体
+        - 其他 / 不确定
+    validations:
+      required: true
+
+  - type: dropdown
+    id: suggestion_type
+    attributes:
+      label: 建议类型
+      options:
+        - 讲解不清楚，希望展开
+        - 希望补充示例 / 案例
+        - 希望增加练习 / 作业
+        - 章节顺序 / 结构调整
+        - 英文翻译 / 文档改进
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 具体建议
+      description: 你希望怎么改？现在哪里让你觉得别扭或难理解？
+      placeholder: |
+        例如：第 6 讲讲默认参数时，如果能加一个“调用顺序错误”的反例，会更容易理解。
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: 补充例子或参考
+      description: 可以贴代码、伪代码、链接或截图（可选）。
+      render: python
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已经搜索过现有 Issue，没有发现重复
+          required: true
+        - label: 我愿意提交 PR 一起实现这个建议
+          required: false

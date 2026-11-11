@@ -117,6 +117,11 @@ python-beginner/
 ├── pdf/                        # 7 讲 PDF，适合打印或在平板上看
 ├── scripts/
 │   └── build_pdf.py            # 由 ipynb 重新生成 PDF（维护者用）
+├── assets/
+│   ├── social-preview.png      # GitHub 社交预览图（1280×640）
+│   └── social-preview.html     # 预览图源文件
+├── .github/
+│   └── ISSUE_TEMPLATE/         # Issue 表单（问题反馈 / 内容建议）
 ├── README.md
 ├── README_EN.md
 ├── LICENSE
@@ -233,7 +238,7 @@ B 站合集里第 3 讲拆成了 6 个视频（数值、字符串、列表、元
 <details>
 <summary><b>发现课件有错误怎么办？</b></summary>
 
-欢迎提 [Issue](../../issues) 或直接发 PR，注明是哪一讲、哪个代码格。错别字、代码跑不通、解释不清楚，都算有价值的问题。
+欢迎提 [Issue](../../issues/new/choose) 或直接发 PR，注明是哪一讲、哪个代码格。仓库里准备了“内容错误 / 代码问题”和“内容建议 / 改进”两个模板。错别字、代码跑不通、解释不清楚，都算有价值的问题。
 </details>
 
 <details>
@@ -246,7 +251,7 @@ B 站合集里第 3 讲拆成了 6 个视频（数值、字符串、列表、元
 
 欢迎一起把这套课打磨得更好：
 
-- 发现错别字、代码错误、链接失效 → 提 [Issue](../../issues)
+- 发现错别字、代码错误、链接失效 → 提 [Issue](../../issues/new/choose)
 - 想补充例子、优化讲解 → 提 Pull Request
 - 提交前请先看 [CONTRIBUTING.md](CONTRIBUTING.md)
 

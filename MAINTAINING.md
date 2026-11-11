@@ -57,7 +57,19 @@ learn-to-code
 
 ### Social preview
 
-在 **Settings → General → Social preview** 上传一张 1280×640 的图片。可以用 B 站课程封面，或做一张写着课程名、讲次数、“零基础”的简洁封面。注意缩略图尺寸下文字仍然可读。
+仓库里已经生成好 `assets/social-preview.png`（1280×640，约 420 KB）。在 **Settings → General → Social preview** 直接上传这个文件即可。
+
+源文件是 `assets/social-preview.html`，改完文案后用无头 Chrome 重新渲染：
+
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+  --headless=new --disable-gpu --no-sandbox --hide-scrollbars --force-device-scale-factor=1 \
+  --window-size=1280,640 --virtual-time-budget=3000 --user-data-dir=/tmp/chrome-social \
+  --screenshot="$PWD/assets/social-preview.png" \
+  "file://$PWD/assets/social-preview.html"
+```
+
+> Windows 下把 Chrome 路径换成 `chrome.exe` 的路径；Linux 用 `google-chrome` 或 `chromium`。
 
 ## 2. 首次发布
 
@@ -150,7 +162,9 @@ CHROME=/path/to/chrome python scripts/build_pdf.py
 - [ ] 没有 `.DS_Store`、`.ipynb_checkpoints/`、`__pycache__/`
 - [ ] `LICENSE` 的年份与署名正确
 - [ ] 中文 README 与 `README_EN.md` 的互相链接可用
-- [ ] About、Topics、Website、Social preview 已设置
+- [ ] About、Topics、Website 已设置
+- [ ] `assets/social-preview.png` 已上传到 Social preview
+- [ ] Issue 模板可正常选择（内容错误 / 内容建议）
 - [ ] 已打 tag 并发布 Release
 - [ ] 仓库体积合理（当前约 6.4 MB，无需 Git LFS）
 
@@ -161,6 +175,8 @@ notebooks/第N讲-主题.ipynb     # 课件，中文文件名，与视频标题�
 notebooks/img/                 # 插图，必须与 ipynb 同级，保持相对路径引用
 pdf/第N讲-主题.pdf             # 与 ipynb 同名，方便对照
 scripts/build_pdf.py           # 构建脚本
+assets/                        # 社交预览图及其 HTML 源文件
+.github/ISSUE_TEMPLATE/        # Issue 表单
 ```
 
 约定：
@@ -185,6 +201,11 @@ scripts/build_pdf.py           # 构建脚本
 2. 压缩到合理体积（建议单张 < 300 KB）；
 3. 遮盖截图里的用户名、本地路径、浏览器头像等个人信息；
 4. 重新生成对应 PDF。
+
+### 修改 Issue 模板 / 社交预览图
+
+- Issue 模板在 `.github/ISSUE_TEMPLATE/`，改完推送后立即生效，可在 `/issues/new/choose` 预览。
+- 社交预览图源文件是 `assets/social-preview.html`，改文案后按上面的 Chrome 命令重新渲染，再到仓库设置里重新上传。
 
 ### 修改课程文案
 
