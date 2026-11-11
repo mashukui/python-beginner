@@ -1,8 +1,8 @@
 <div align="center">
 
-# 马哥 Python 入门私教课
+# 马哥Python入门私教课
 
-**7 讲 · 13 个视频 · 零基础 · 约 78 分钟**
+**7讲 · 13个视频 · 零基础 · 约78分钟**
 
 作者：[马哥python说](https://space.bilibili.com/438486155) ｜ 公众号：老男孩的平凡之路
 
@@ -12,27 +12,27 @@
 ![Bilibili](https://img.shields.io/badge/Bilibili-13%20videos-00A1D6?style=flat-square&logo=bilibili&logoColor=white)
 ![Level](https://img.shields.io/badge/Level-Beginner-blue?style=flat-square)
 
-[📺 B 站视频合集](https://www.bilibili.com/video/BV1aK4y1F7g9) ｜ [📓 Jupyter 课件](#课程目录) ｜ [📄 PDF 版](#课程目录) ｜ [English](README_EN.md)
+[📺 B站视频合集](https://www.bilibili.com/video/BV1aK4y1F7g9) ｜ [📓 Jupyter课件](#课程目录) ｜ [📄 PDF版](#课程目录) ｜ [English](README_EN.md)
 
 </div>
 
 ---
 
-> 这套课原本是我录制的付费私教课。2023 年 9 月，我把它免费发布在 B 站；现在把 **7 讲 Jupyter 课件 + PDF** 一并开源，希望能帮到更多刚开始学 Python 的人。
->
-> 如果它对你有帮助，欢迎点个 ⭐ **Star**，让更多零基础的朋友看到。
+> 这套课原本是我录制的付费私教课。2023年9月，我把它免费发布在B站；
+> 
+> 现在把 **7 讲 Jupyter 课件 + PDF** 一并开源，希望能帮到更多刚开始学Python的人。
 
 ## 这门课是什么
 
-这不是一套“大而全”的 Python 教程，只做一件事：**用最短的时间，把 Python 最核心的语法讲清楚**，让你能看懂、能改、能自己写一些小脚本。
+这不是一套“大而全”的 Python教程，只做一件事：**用最短的时间，把Python最核心的语法讲清楚**，让你能看懂、能改、能自己写一些小脚本。
 
-- **7 讲**：从“Python 是什么”讲到面向对象，覆盖入门阶段最常用的语法。
-- **13 个视频，约 78 分钟**：每讲都短小，适合碎片时间看完。
+- **7讲**：从“Python是什么”讲到面向对象，覆盖入门阶段最常用的语法。
+- **13个视频，约78分钟**：每讲都短小，适合碎片时间看完。
 - **课件可运行**：每讲都有 Jupyter Notebook，代码和输出都在，边看边改。
 - **零第三方依赖**：示例只使用 Python 标准库，不需要装 pandas、numpy 等任何包。
 - **中文讲解**：面向零基础、非科班、自学容易卡住的同学。
 
-课程录制于 2023 年，环境为 **Python 3.8.5 + PyCharm**；示例语法在 Python 3.8 及以上版本都可以直接运行。
+课程录制于2023年，环境为 **Python 3.8.5 + PyCharm**；示例语法在 Python 3.8 及以上版本都可以直接运行。
 
 ### 学完你将掌握
 
@@ -58,7 +58,7 @@
 
 | 讲 | 主题 | 核心内容 | 视频 | 时长 | 课件 |
 | :--: | --- | --- | :--: | ---: | :--: |
-| 1 | [Python 介绍](notebooks/第1讲-Python介绍.ipynb) | 语言特点、Python 之禅、Python 2/3 历史、8 大应用领域 | [观看](https://www.bilibili.com/video/BV1aK4y1F7g9?p=1) | 6:36 | [ipynb](notebooks/第1讲-Python介绍.ipynb) · [PDF](pdf/第1讲-Python介绍.pdf) |
+| 1 | [Python介绍](notebooks/第1讲-Python介绍.ipynb) | 语言特点、Python 之禅、Python 2/3 历史、8 大应用领域 | [观看](https://www.bilibili.com/video/BV1aK4y1F7g9?p=1) | 6:36 | [ipynb](notebooks/第1讲-Python介绍.ipynb) · [PDF](pdf/第1讲-Python介绍.pdf) |
 | 2 | [环境搭建](notebooks/第2讲-Python安装及PyCharm安装.ipynb) | 安装 Python 3.8.5、配置 PATH、安装 PyCharm、Hello World | [观看](https://www.bilibili.com/video/BV1aK4y1F7g9?p=2) | 4:02 | [ipynb](notebooks/第2讲-Python安装及PyCharm安装.ipynb) · [PDF](pdf/第2讲-Python安装及PyCharm安装.pdf) |
 | 3 | [数据类型](notebooks/第3讲-Python数据类型.ipynb) | 数值、字符串、列表、元组、字典、集合；切片、格式化、集合去重 | [3.1–3.6](https://www.bilibili.com/video/BV1aK4y1F7g9?p=3) | 32:43 | [ipynb](notebooks/第3讲-Python数据类型.ipynb) · [PDF](pdf/第3讲-Python数据类型.pdf) |
 | 4 | [条件判断](notebooks/第4讲-Python条件判断.ipynb) | 比较运算符、代码块缩进、6 种 if 句式、边界与分支重叠 | [观看](https://www.bilibili.com/video/BV1aK4y1F7g9?p=9) | 8:30 | [ipynb](notebooks/第4讲-Python条件判断.ipynb) · [PDF](pdf/第4讲-Python条件判断.pdf) |
@@ -270,7 +270,7 @@ B 站合集里第 3 讲拆成了 6 个视频（数值、字符串、列表、元
 ## 联系作者
 
 - **B 站**：[马哥python说](https://space.bilibili.com/438486155)
-- **公众号**：老男孩的平凡之路
+- **公众号**：[老男孩的平凡之路](https://github.com/mashukui/mashukui/blob/main/wechat2.png)
 - **问题反馈**：[GitHub Issues](../../issues)
 
 ## 致谢
@@ -281,6 +281,6 @@ B 站合集里第 3 讲拆成了 6 个视频（数值、字符串、列表、元
 
 <div align="center">
 
-**如果这套课帮你少走了一点弯路，欢迎点个 ⭐ Star，或分享给正在学 Python 的朋友。**
+**如果这套课帮你少走了一点弯路，欢迎点个 ⭐ Star，或分享给正在学Python的朋友。**
 
 </div>
