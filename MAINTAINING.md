@@ -152,7 +152,7 @@ CHROME=/path/to/chrome python scripts/build_pdf.py
 - [ ] 中文 README 与 `README_EN.md` 的互相链接可用
 - [ ] About、Topics、Website、Social preview 已设置
 - [ ] 已打 tag 并发布 Release
-- [ ] 仓库体积合理（当前约 9 MB，无需 Git LFS）
+- [ ] 仓库体积合理（当前约 6.4 MB，无需 Git LFS）
 
 ## 6. 目录与命名约定
 
