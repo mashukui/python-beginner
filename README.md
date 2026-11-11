@@ -119,7 +119,8 @@ python-beginner/
 │   └── build_pdf.py            # 由 ipynb 重新生成 PDF（维护者用）
 ├── assets/
 │   ├── social-preview.png      # GitHub 社交预览图（1280×640）
-│   └── social-preview.html     # 预览图源文件
+│   ├── social-preview.html     # 预览图源文件
+│   └── social/                 # X / Facebook / YouTube 配图与发布文案
 ├── .github/
 │   └── ISSUE_TEMPLATE/         # Issue 表单（问题反馈 / 内容建议）
 ├── README.md

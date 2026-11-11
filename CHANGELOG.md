@@ -8,6 +8,7 @@
 
 - GitHub Issue 表单：内容错误 / 代码问题、内容建议 / 改进
 - `assets/social-preview.png`（1280×640）及可编辑的 HTML 源文件
+- `assets/social/`：X、Facebook、YouTube 的中英文配图与发布文案
 
 ## v1.0.0 — 2026-11-11
 
